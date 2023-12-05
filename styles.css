@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+:root {
+    --Redhero: #E02041;
+    --Titulos-Principais: #13131A;
+    --roboto: 'Roboto', sans-serif;
+    --background: #F0F0F5;
+    --linha-inputs: #DCDCE5;
+    --Inputs: #FFF;
+    --Titulos-secundarios: #4141D;
+    --Textos-Secundarios: #A8A8B3;
+
+}
+
+
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    margin: 3rem auto auto 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body {
+
+    background: var(--background);
+
+}
+
+
+
+h1 {
+
+    color: var(--Titulos-Principais);
+    font-family: var(--roboto);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+    margin-right: 258px;
+    font-weight: bold;
+
+}
+
+h2 {
+    color: var(--Titulos-secundarios);
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 19px;
+
+}
+
+.imagem__inicial {
+    width: 250px;
+    height: 106px;
+    flex-shrink: 0;
+
+
+}
+
+.botao {
+    width: 351px;
+    height: 60px;
+    border-radius: 8px;
+    background: var(--Redhero);
+    margin-top: 15.9px;
+    margin-right: 151px;
+    margin-bottom: 40px;
+    color: var(--background);
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+
+}
+
+.input {
+    width: 351px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1.5px solid var(--linha-inputs);
+    background: var(--Inputs);
+    color: var(--Textos-Secundarios);
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 24px;
+
+}
+
+.imagem {
+    width: 30%;
+}
+
+.imagem__pessoas {
+    width: 593px;
+    height: 568px;
+}
+
+.Sem__cadastro {
+    color: var(--Titulos-secundarios);
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+}
+
+.seta {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:link:active, a:visited:active {
+    color: black;
+    text-decoration: none;
+  }
+
