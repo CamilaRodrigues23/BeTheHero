@@ -26,10 +26,12 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100vw;
+  height: 577px;
   margin: 64px auto;
   border-radius: 8px;
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.1);
+
   padding: 96px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -69,11 +71,13 @@ body {
   color: var(--Titulos-secundarios);
   font-family: var(--roboto);
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
   line-height: 16px;
   text-decoration: none;
+  margin: 84px 301px 104 16px;
+  text-align: center;
   display: flex;
-  align-items: center;
 }
 
 .input {
@@ -89,40 +93,103 @@ body {
 }
 
 .botao {
-  width: 448px;
+  width: 255px;
   height: 60px;
-
+  flex-shrink: 0;
   border-radius: 8px;
   background: var(--Redhero);
   color: var(--Background, #f0f0f5);
   text-align: center;
   font-family: var(--roboto);
   font-size: 18px;
-
   font-weight: 700;
 }
 
-.botao {
-  width: 448px;
+.cancelar {
   height: 60px;
-  text-decoration: none;
-  color: var(--background);
-  text-align:center;
+  padding: 21px 48px;
+  border-radius: 8px;
+  border: 2.5px solid var(--linha-inputs);
+  color: var(--Titulos-Principais);
   font-family: var(--roboto);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 18px;
+  margin: 16px 17px 94px 0px;
 }
 
-form input{
+form input {
   margin-bottom: 10px;
 }
 
-#cidade{
-  width: 370px;
+#titulo {
+  width: 448px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid var(--linha-inputs);
+  background: var(--Inputs);
+  color: var(--Textos-Secundarios);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 24px;
 }
-#estado{
-  width: 70px;
+
+#descricao {
+  width: 448px;
+  height: 175px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid var(--linha-inputs);
+  background: var(--Inputs);
+  color: var(--Textos-Secundarios);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 135px;
+  padding-left: 24px;
+  padding-top: 19px;
 }
+
+#reais {
+  width: 448px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid var(--linha-inputs);
+  background: var(--Inputs);
+  color: var(--Textos-Secundarios);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 24px;
+}
+
+.home {
+  color: var(--Titulos-secundarios);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+
  
+
+  
+}
+
+.Voltar {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin: 0px 16px;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --Redhero: #e02041;
+  --Titulos-Principais: #13131a;
+  --roboto: "Roboto", sans-serif;
+  --background: #f0f0f5;
+  --linha-inputs: #dcdce5;
+  --Inputs: #fff;
+  --Titulos-secundarios: #41414d;
+  --Textos-Secundarios: #a8a8b3;
+  --Textos-dark-textos-apoio: #737380;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+}
+
+header {
+  width: 100vw;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
+}
+.container{
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  text-align:inherit;
+}
+
+.titulo__inicial {
+  color: var(--Titulos-Principais);
+  font-family: var(--roboto);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  font-weight: bold;
+  margin: 81px 234px 32px 64px;
+}
+.conteudo {
+  width: 570px;
+  height: 350px;
+  border-radius: 8px;
+  background: var(--Inputs);
+  margin: 70px 8px 10px 50px;
+  padding: 0 20px;
+ align-content: center;
+ 
+}
+
+.button__right {
+  height: 60px;
+  padding: 21px 48px;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Redhero);
+  color: var(--background);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  float: left;
+  
+}
+
+.button__right {
+  margin-right: 6vw;
+  margin-left: 15vw;
+}
+
+.span__titulo {
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--Titulos-Principais);
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.image__left img {
+  width: 144px;
+  margin-left: 125px;
+}
+.paragrafo {
+  color: var(--Textos-dark-textos-apoio);
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 16px 32px 32px 32px;
+}
+
+
+.span {
+  color: var(--Titulos-secundarios);
+  font-family: var(--roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 32x 50px 16px 32px;
+  
+}
+
+
+.botao__apagar {
+  width: 24px;
+  height: 24px;
+  margin: 24.19px 24px 14px 293px;
+}

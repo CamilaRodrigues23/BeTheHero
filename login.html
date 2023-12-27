@@ -1,44 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Cadastro</title>
-    <link rel="stylesheet" href="cadastro.css">
+    <title>Be The Hero</title>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <div class="container">
-
-
-        <div class="imagem__inicio">
-            <img src="./img/Logo.svg">
-        </div>
-        <div class="Cadastrar">
-            <h1>Cadastro</h1>
-            <h2>Faça seu cadastro, entre na plataforma e ajude <br>pessoas a encontrarem os casos de sua ONG</h2>
-        </div>
-        <div class="Cadastramento">
-            <input class="input" type="text" id="ONG" name="ONG" placeholder="Nome da ONG" />
-
-            <input class="input" type="text" id="e-mail" name="e-mail" placeholder="E-mail" />
-
-            <input class="input" type="text" id="Celular" name="Celular" placeholder="WhatsApp" />
-            <div class="cidade">
-                <input class="input" type="text" id="cidade" name="cidade" placeholder="Cidade" />
+        <div class="row">
+            <div class="imagem__inicial">
+                <img src="img/Logo.svg">
+            </div>
+            <div class="login">
+                <h1>Faça seu login</h1>
             </div>
 
-            <div class="estado">
-                <input class="input" type="text" id="estado" name="estado" placeholder="UF" />
-            </div>
+            <div class="entrada">
+                <input class="input" type="text" id="identificacao" name="identificacao" placeholder="Sua ID" />
+                
+                <a href="cadastrados.html">
+                    <button class="botao">Entrar</button>
+                </a>
 
-            <button class="botao">Cadastrar</button>
-            <a href="index.html"><button class="Voltar">Voltar para o login
-                    <img class="botao__voltar" src="./img/Voltar.svg">
-                </button></a>
+                <div class="Sem__cadastro">
+                    <img class="seta" src="./img/ícone seta.svg">
+                    <a href="cadastro-na-plataforma.html">
+
+                        <h2>
+                            Não tenho cadastro
+                        </h2>
+                    </a>
+                
+                </div>
+            </div>
         </div>
+        <div class="imagem">
+            <img src="./img/Pessoas.svg" class="imagem__pessoas">
+        </div>
+    </div>
+    </div>
+
 </body>
 
 </html>
+
